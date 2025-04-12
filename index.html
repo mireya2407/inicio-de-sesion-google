@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+
+
+
+  <meta charset="UTF-8">
+  <title>Google</title>
+  
+  <style>
+    body {
+      background-color: #ffe4e1;
+      font-family: Arial, sans-serif;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+    }
+
+    .registro-container {
+      background-color: white;
+      padding: 40px;
+      border-radius: 15px;
+      box-shadow: 0 0 15px rgba(0,0,0,0.2);
+      text-align: center;
+    }
+
+    h2 {
+      margin-bottom: 20px;
+      color: #507fff;
+    }
+
+    input[type="text"],
+    input[type="password"] {
+      width: 100%;
+      padding: 10px;
+      margin: 10px 0 20px;
+      border: 1px solid #ccc;
+      border-radius: 8px;
+    }
+
+    button {
+      background-color: #00b118;
+      color: white;
+      border: none;
+      padding: 10px 20px;
+      font-size: 16px;
+      border-radius: 8px;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+    }
+
+    button:hover {
+      background-color: #00a336;
+    }
+  </style>
+</head>
+<body>
+
+
+<div class="registro-container">
+  <div style="text-align: center;">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Google_2015_logo.svg/640px-Google_2015_logo.svg.png" width="200" alt="Logo de Instagram" style="margin-bottom: 20px;">
+  </div>
+
+
+
+    <body style="background-image: url('https://i.pinimg.com/474x/11/f9/04/11f904493ed0fc54e18784a641b50eaf.jpg'); background-size: cover; background-repeat: no-repeat;"  >
+
+    
+  <div class="registro-container">
+    <h2>Registro</h2>
+    <form onsubmit="mostrarAlerta(); return false;">
+      <input type="text" placeholder="Nombre de usuario" required>
+      <input type="password" placeholder="Contraseña" required>
+      <button type="submit">Registrarse</button>
+    </form>
+  </div>
+
+  <script>
+    function mostrarAlerta() {
+      alert("intenta otra vez");
+    }
+  </script>
+
+</body >
+
+
+
+</html>
